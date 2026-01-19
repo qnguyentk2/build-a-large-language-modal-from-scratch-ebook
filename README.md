@@ -192,6 +192,58 @@ Bao gồm:
 
 
 
+```
+
+## Sơ đồ pipeline: Base Model → Instruction Fine-Tuning → Classification Fine-Tuning
+
+        ┌──────────────────────────────────────┐
+        │            Base / Foundation Model   │
+        │  - Pretrained on massive text data   │
+        │  - Task: next-word prediction        │
+        │  - General language understanding    │
+        │  - Limited few-shot capability       │
+        └───────────────┬──────────────────────┘
+                        │
+                        ▼
+        ┌──────────────────────────────────────┐
+        │      Instruction Fine-Tuning (IFT)   │
+        │  - Data: Instruction + Answer pairs  │
+        │    (e.g. Translate, Summarize, QA)   │
+        │  - Goal: Learn to follow instructions│
+        │  - Output: Helpful, aligned responses│
+        └───────────────┬──────────────────────┘
+                        │
+                        ▼
+        ┌──────────────────────────────────────┐
+        │   Classification Fine-Tuning (CFT)   │
+        │  - Data: Text + Class labels         │
+        │    (spam / not spam, sentiment, …)   │
+        │  - Goal: Predict specific categories │
+        │  - Output: Task-specific classifier  │
+        └───────────────┬──────────────────────┘
+                        │
+                        ▼
+        ┌──────────────────────────────────────┐
+        │        Deployed Task-Specific LLM    │
+        │  - Chatbot / Assistant               │
+        │  - Domain applications               │
+        │  - Production usage                  │
+        └──────────────────────────────────────┘
+
+```
+
+🧠 Cách hiểu nhanh (engineer-style)
+
+    Base model
+    → biết ngôn ngữ nói chung
+
+    Instruction FT
+    → biết làm theo yêu cầu của con người
+
+    Classification FT
+    → biết ra quyết định cụ thể cho bài toán hẹp
+
+    
 
 ### Keyword:
 1. [Deep neural network models (DNN models):](https://chatgpt.com/g/g-p-696e03d1cfd481918a4ca9cdc44a493c-build-a-large-language-model-from-scratch/c/696e03d8-ba1c-8332-a092-3f3c2e82bdb3) 
