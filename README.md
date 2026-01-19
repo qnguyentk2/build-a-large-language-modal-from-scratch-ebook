@@ -282,4 +282,14 @@ Deep Neural Network là một hệ thống gồm nhiều tầng toán học nố
     Few-shot là một khái niệm trong Machine Learning / AI để chỉ khả năng học hoặc thực hiện một nhiệm vụ mới chỉ với rất ít ví dụ (thường là 1–10 mẫu), thay vì cần hàng nghìn hay hàng triệu dữ liệu.
    <img width="682" height="249" alt="image" src="https://github.com/user-attachments/assets/df52ae50-d9a5-47a1-b42c-f989a26ea78e" />
 
+
+4. [Fine-tuned LLM (Large Language Model được fine-tune) là:](https://chatgpt.com/g/g-p-696e03d1cfd481918a4ca9cdc44a493c/c/696e2406-83bc-8331-84d8-54179de8ac14)
+   Một mô hình ngôn ngữ lớn đã được huấn luyện sẵn (pretrained), sau đó tiếp tục huấn luyện thêm trên một tập dữ liệu cụ thể để nó làm tốt hơn một nhiệm vụ hoặc ngữ cảnh xác định.
+
+   ```
+   Pretraining  →  Fine-tuning  →  (Deployment / Inference)
+   ```
+
+   <img width="666" height="509" alt="image" src="https://github.com/user-attachments/assets/b512baa7-92c1-40bd-8659-8624cff3db18" />
+
    
