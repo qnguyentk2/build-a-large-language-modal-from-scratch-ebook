@@ -137,6 +137,61 @@ Bao gồm:
   - Tự tay xây dựng một LLM có khả năng tạo sinh văn bản
   - Nắm được các kỹ thuật cốt lõi đằng sau những hệ thống như ChatGPT
 
+### Các giai đoạn build và sử dụng LLMs
+
+<img width="1245" height="656" alt="image" src="https://github.com/user-attachments/assets/9e8e3d5d-013d-4821-abf5-9009d6482639" />
+
+
+```
+## Sơ đồ: Pretraining → Fine-tuning (LLM Lifecycle)
+
+          ┌──────────────────────────────┐
+          │        Raw Text Data          │
+          │ (internet, books, articles)  │
+          └──────────────┬───────────────┘
+                         │
+                         ▼
+          ┌──────────────────────────────┐
+          │        PRETRAINING            │
+          │  - Task: Next-word prediction│
+          │  - Data: Large, diverse text │
+          │  - Goal: Learn language      │
+          │    structure & context       │
+          └──────────────┬───────────────┘
+                         │
+                         ▼
+          ┌──────────────────────────────┐
+          │   Base / Foundation Model     │
+          │   (e.g. GPT-3-like model)     │
+          │  - General language ability  │
+          │  - Few-shot (limited)        │
+          └──────────────┬───────────────┘
+                         │
+        ┌────────────────┴────────────────┐
+        │                                 │
+        ▼                                 ▼
+┌──────────────────────┐       ┌────────────────────────┐
+│ Instruction          │       │ Classification         │
+│ Fine-tuning          │       │ Fine-tuning             │
+│ - Data: Instruction │       │ - Data: Text + labels   │
+│   + Answer pairs    │       │ - Goal: Predict class   │
+│ - Goal: Follow      │       │   (spam / not spam,…)  │
+│   instructions      │       └────────────────────────┘
+└───────────┬──────────┘
+            │
+            ▼
+   ┌───────────────────────────┐
+   │   Task-Specific LLM       │
+   │ - Chatbot                 │
+   │ - QA / Summarization      │
+   │ - Translation             │
+   │ - Domain-specific tasks   │
+   └───────────────────────────┘
+
+```
+
+
+
 
 ### Keyword:
 1. [Deep neural network models (DNN models):](https://chatgpt.com/g/g-p-696e03d1cfd481918a4ca9cdc44a493c-build-a-large-language-model-from-scratch/c/696e03d8-ba1c-8332-a092-3f3c2e82bdb3) 
@@ -169,3 +224,10 @@ Deep Neural Network là một hệ thống gồm nhiều tầng toán học nố
 > Ít chú ý hơn tới “con”, “nằm”, “vì”, …
 > 
 > → Transformer chọn lọc ngữ cảnh có ý nghĩa.
+
+3. [Few-shot learning](https://chatgpt.com/g/g-p-696e03d1cfd481918a4ca9cdc44a493c/c/696e1ba4-9ee4-832f-9b1c-356a46bb6b97)
+
+    Few-shot là một khái niệm trong Machine Learning / AI để chỉ khả năng học hoặc thực hiện một nhiệm vụ mới chỉ với rất ít ví dụ (thường là 1–10 mẫu), thay vì cần hàng nghìn hay hàng triệu dữ liệu.
+   <img width="682" height="249" alt="image" src="https://github.com/user-attachments/assets/df52ae50-d9a5-47a1-b42c-f989a26ea78e" />
+
+   
