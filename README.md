@@ -31,6 +31,9 @@ More data + bigger models + longer training
 LLM sử dụng một kiến trúc gọi là Transformer, cho phép mô hình tập trung sự chú ý một cách chọn lọc vào các phần khác nhau của dữ liệu đầu vào khi đưa ra dự đoán. Nhờ đó, chúng đặc biệt hiệu quả trong việc xử lý những sắc thái và độ phức tạp của ngôn ngữ con người.
 Kiến trúc Transformer giúp LLM ‘chú ý đúng chỗ’ trong văn bản đầu vào, nên mô hình có thể hiểu và xử lý tốt hơn các mối quan hệ và sắc thái tinh tế của ngôn ngữ.
 
+<img width="1349" height="481" alt="image" src="https://github.com/user-attachments/assets/25ef83d5-ff6e-4942-ab1c-5c7ea528b56e" />
+
+
 
 ### Keyword:
 1. [Deep neural network models (DNN models):](https://chatgpt.com/g/g-p-696e03d1cfd481918a4ca9cdc44a493c-build-a-large-language-model-from-scratch/c/696e03d8-ba1c-8332-a092-3f3c2e82bdb3) 
