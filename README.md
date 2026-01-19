@@ -45,6 +45,76 @@ Vì các mô hình ngôn ngữ lớn (LLM) có khả năng tạo sinh văn bản
 
 >1.1, AI encompasses the broader field of creating machines that can perform tasks requiring human-like intelligence, including understanding language, recognizing patterns, and making decisions, and includes subfields like machine learning and deep learning.
 
+### sơ đồ phân cấp:
+
+```
+Artificial Intelligence (AI)
+│
+├── Machine Learning (ML)
+│   │
+│   ├── Deep Learning (DL)
+│   │   │
+│   │   ├── Neural Networks
+│   │   │   │
+│   │   │   └── Large Language Models (LLMs)
+│   │   │       (Transformer-based models)
+
+```
+
+***1️⃣ Artificial Intelligence (AI)***
+Mục tiêu lớn: tạo máy móc có hành vi giống trí tuệ con người   
+Bao gồm:
+
+     - hiểu ngôn ngữ
+     
+     - nhận diện mẫu
+     
+     - ra quyết định
+
+     👉 AI = khái niệm bao trùm
+
+***2️⃣ Machine Learning (ML)***
+
+     - Một nhánh của AI
+   
+     - Máy không cần code rule cứng
+   
+     - Học từ dữ liệu → tìm quy luật
+   
+     👉 “Learn from data, not from rules”
+
+
+***3️⃣ Deep Learning (DL)***
+
+   Một nhánh của ML
+   
+     - Dựa trên mạng nơ-ron nhiều tầng
+   
+     - Scale tốt khi:
+   
+        - dữ liệu lớn
+   
+        - compute mạnh
+   
+     👉 DL = ML + neural networks + scale
+
+
+***4️⃣ Large Language Models (LLMs)***
+
+   Một ứng dụng cụ thể của Deep Learning
+   
+        Tập trung vào ngôn ngữ
+   
+        Thường dùng:
+   
+             kiến trúc Transformer
+   
+             bài toán next-word prediction
+   
+        👉 LLM = Deep Neural Network + Transformer + Massive Text Data
+
+
+
 ### Keyword:
 1. [Deep neural network models (DNN models):](https://chatgpt.com/g/g-p-696e03d1cfd481918a4ca9cdc44a493c-build-a-large-language-model-from-scratch/c/696e03d8-ba1c-8332-a092-3f3c2e82bdb3) 
 Deep Neural Network là một hệ thống gồm nhiều tầng toán học nối tiếp nhau, học cách ánh xạ input → output bằng cách tự điều chỉnh trọng số thông qua dữ liệu, thay vì viết rule thủ công.
