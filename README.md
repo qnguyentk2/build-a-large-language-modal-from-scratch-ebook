@@ -4,6 +4,9 @@
 
 ## Chapter 1 - Understanding large language models
 
+LLM không suy nghĩ → nó mô phỏng kết quả của tư duy thông qua thống kê ngôn ngữ.
+LLM giúp máy tính tạo ra câu trả lời bằng cách dự đoán và sinh các từ (token) sao cho phù hợp với ngữ cảnh ngôn ngữ mà con người thường dùng; về bản chất, nó không suy nghĩ hay có ý thức như con người khi nói ra câu đó.
+
 ### Keyword:
 1. [Deep neural network models (DNN models):](https://chatgpt.com/g/g-p-696e03d1cfd481918a4ca9cdc44a493c-build-a-large-language-model-from-scratch/c/696e03d8-ba1c-8332-a092-3f3c2e82bdb3) 
 Deep Neural Network là một hệ thống gồm nhiều tầng toán học nối tiếp nhau, học cách ánh xạ input → output bằng cách tự điều chỉnh trọng số thông qua dữ liệu, thay vì viết rule thủ công.
