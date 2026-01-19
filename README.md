@@ -51,13 +51,15 @@ Deep Neural Network là một hệ thống gồm nhiều tầng toán học nố
     Việc “chọn lọc” này diễn ra tự động, thông qua trọng số attention được học trong quá trình train.
 
 
-   **Ví dụ**
-   “Con mèo nằm trên tấm thảm vì nó rất ấm.”
-
-   Khi xử lý từ “nó”:
-
-    Attention sẽ tập trung mạnh vào “tấm thảm”,
-
-    Ít chú ý hơn tới “con”, “nằm”, “vì”, …
-
-    → Transformer chọn lọc ngữ cảnh có ý nghĩa.
+> **Ví dụ**
+> “Con mèo nằm trên tấm thảm vì nó rất ấm.”
+>
+> 
+> Khi xử lý từ “nó”:
+>
+> 
+> Attention sẽ tập trung mạnh vào “tấm thảm”,
+> 
+> Ít chú ý hơn tới “con”, “nằm”, “vì”, …
+> 
+> → Transformer chọn lọc ngữ cảnh có ý nghĩa.
