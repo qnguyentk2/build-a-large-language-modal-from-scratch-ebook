@@ -115,6 +115,29 @@ Bao gồm:
 
 
 
+### Ứng dụng cuả LLMs
+
+- LLM có khả năng vượt trội trong việc **phân tích và tạo sinh văn bản phi cấu trúc**, nên được ứng dụng rộng rãi trong nhiều lĩnh vực.
+- Các ứng dụng phổ biến bao gồm:
+  - Dịch máy
+  - Tạo văn bản
+  - Phân tích cảm xúc
+  - Tóm tắt văn bản
+  - Sáng tạo nội dung (bài viết, truyện, mã nguồn)
+- LLM là nền tảng cho các **chatbot và trợ lý ảo** (ví dụ: ChatGPT, Gemini),
+  giúp trả lời câu hỏi và hỗ trợ các công cụ tìm kiếm truyền thống.
+- Trong các lĩnh vực chuyên môn như y khoa và luật, LLM hỗ trợ:
+  - Truy xuất tri thức từ khối lượng tài liệu lớn
+  - Lọc và tóm tắt tài liệu
+  - Trả lời các câu hỏi kỹ thuật
+- Nhìn chung, LLM giúp **tự động hóa hầu hết các tác vụ liên quan đến việc đọc hiểu và tạo sinh văn bản**,
+  từ đó thay đổi cách con người tương tác với công nghệ theo hướng tự nhiên và dễ tiếp cận hơn.
+- Cuốn sách tập trung vào:
+  - Hiểu cách LLM hoạt động từ nền tảng
+  - Tự tay xây dựng một LLM có khả năng tạo sinh văn bản
+  - Nắm được các kỹ thuật cốt lõi đằng sau những hệ thống như ChatGPT
+
+
 ### Keyword:
 1. [Deep neural network models (DNN models):](https://chatgpt.com/g/g-p-696e03d1cfd481918a4ca9cdc44a493c-build-a-large-language-model-from-scratch/c/696e03d8-ba1c-8332-a092-3f3c2e82bdb3) 
 Deep Neural Network là một hệ thống gồm nhiều tầng toán học nối tiếp nhau, học cách ánh xạ input → output bằng cách tự điều chỉnh trọng số thông qua dữ liệu, thay vì viết rule thủ công.
